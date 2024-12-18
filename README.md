@@ -5,6 +5,7 @@ Convert Excel to CSV
 Convert Word to PDF
 Convert images (JPG/PNG) to PDF
 Convert JPG to PNG
+Convert WEBP to PNG
 
 To correctly display the background images in the program:
 
