@@ -6,7 +6,9 @@ Convert Word to PDF
 Convert images (JPG/PNG) to PDF
 Convert JPG to PNG
 Convert WEBP to PNG
-
+Convert SVG to PNG
+Convert SVG to PDF
+Convert PNG to JPG
 To correctly display the background images in the program:
 
 Create a folder named assets in the project directory.
