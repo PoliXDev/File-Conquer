@@ -1,24 +1,80 @@
-The program is a File Converter with a graphical interface developed in PyQt5 that allows:
+File Converter
+
+A file conversion application with a graphical interface developed in PyQt5.
 
 Main Features
+Text and Documents
 Convert Excel to CSV
+
 Convert Word to PDF
-Convert images (JPG/PNG) to PDF
+
+Images and Graphics
+Convert JPG to PDF
+
+Convert PNG to PDF
+
 Convert JPG to PNG
-Convert WEBP to PNG
-Convert SVG to PNG
-Convert SVG to PDF
+
 Convert PNG to JPG
-To correctly display the background images in the program:
+
+Convert PNG to AVIF
+
+Convert PNG to SVG
+
+Convert WEBP to PNG
+
+Convert AVIF to PNG
+
+Convert SVG to PNG
+
+Convert SVG to PDF
+
+Requirements
+Python 3.6+
+
+PyQt5
+
+pandas
+
+docx2pdf
+
+Pillow (PIL)
+
+numpy
+
+potrace (for SVG conversion)
+
+Installation
+bash
+Copiar
+Editar
+pip install PyQt5 pandas docx2pdf pillow numpy
+pip install pypotrace  # For PNG to SVG conversion
+Setup
+To properly display background images in the program:
 
 Create a folder named assets in the project directory.
-Place all the image files inside the assets folder.
-Ensure the main program file is located outside the assets folder, in the root directory of the project.
 
-code created by:
+Place all image files inside the assets folder.
 
-Daniel Ruiz Poli
-ConquerBlocks Academy
+Ensure the main program file is located outside the assets folder, in the project's root directory.
 
-version: 2.8
-date: 18/12/2024
+User Interface
+The application features a modern and user-friendly interface, including:
+
+Startup screen with animation
+
+Conversion type selector organized by categories
+
+Input/output file selection
+
+Progress bar to track conversion
+
+Status messages with visual feedback
+
+Developed by: Daniel Ruiz Poli
+Academy: ConquerBlocks
+
+Version
+3.9
+Date: March 2024
